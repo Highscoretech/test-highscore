@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-     output: 'export', // Important for static export
+  output: 'export', // <-- ADD OR ENSURE THIS LINE IS PRESENT
+  // other configurations you might have, e.g.,
+  // images: { unoptimized: true },
 };
 
-export default nextConfig; // Changed from module.exports
+module.exports = nextConfig;
