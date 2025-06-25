@@ -1,15 +1,9 @@
 # netlify.toml
-
 [build]
-  command = "next build"
-  publish = ".next" # Netlify's Next.js plugin handles serving from here
+  command = "next build && next export" # Combined command for static export
+  publish = "out"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-# Optional: Add a general redirect for client-side routing fallback.
-# The Next.js plugin usually handles this, but it doesn't hurt to be explicit.
 [[redirects]]
   from = "/*"
-  to = "/index.html" # Or just "/"
+  to = "/index.html"
   status = 200

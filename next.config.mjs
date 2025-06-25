@@ -1,6 +1,6 @@
-// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-//   output: 'export', // This tells Next.js to export to static HTML/CSS/JS
+     output: 'export', // Important for static export
 };
-module.exports = nextConfig;
+
+export default nextConfig; // Changed from module.exports
