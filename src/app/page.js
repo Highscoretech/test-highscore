@@ -92,7 +92,7 @@ export default function Home() {
   return (
     <Container maxWidth="lg" className="py-8">
       <Typography variant="h4" component="h1" className="text-center mb-8 font-bold">
-        HTML, CSS, and JavaScript Test
+        SQL Exam 1
       </Typography>
       
       <form onSubmit={handleSubmit}>
