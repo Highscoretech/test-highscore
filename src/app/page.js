@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Button, Card, Typography, Box, Container, Paper, Stepper, Step, StepLabel, Radio, RadioGroup, FormControlLabel, FormControl, FormHelperText, Alert } from "@mui/material";
-import { testQuestions } from "./constants/questions";
+import { testQuestions } from "./constants/sqlQuestion";
 
 export default function Home() {
   const [activeQuestion, setActiveQuestion] = useState(0);
