@@ -1,1102 +1,552 @@
 export const testQuestions = [
   {
     id: 1,
-    question: "What does SQL stand for?",
+    question: "What does HTML stand for?",
     options: [
-      "Structured Query Language",
-      "Sequential Query Language",
-      "Structured Question Language",
-      "Simple Query Language"
+      "Hyper Text Markup Language",
+      "High Tech Modern Language",
+      "Hyperlink Text Management Language",
+      "Home Tool Markup Language"
     ],
-    correctAnswer: "Structured Query Language"
+    correctAnswer: "Hyper Text Markup Language"
   },
   {
     id: 2,
-    question: "Which SQL statement is used to extract data from a database?",
+    question: "Which HTML tag is used to define an internal style sheet?",
     options: [
-      "EXTRACT",
-      "SELECT",
-      "GET",
-      "OPEN"
+      "<css>",
+      "<script>",
+      "<style>",
+      "<link>"
     ],
-    correctAnswer: "SELECT"
+    correctAnswer: "<style>"
   },
   {
     id: 3,
-    question: "Which SQL clause is used to filter records?",
+    question: "Which HTML attribute is used to define inline styles?",
     options: [
-      "FILTER",
-      "WHERE",
-      "LIMIT",
-      "HAVING"
+      "class",
+      "styles",
+      "style",
+      "font"
     ],
-    correctAnswer: "WHERE"
+    correctAnswer: "style"
   },
   {
     id: 4,
-    question: "Which SQL statement is used to update data in a database?",
+    question: "Which HTML tag is used to create a hyperlink?",
     options: [
-      "SAVE",
-      "MODIFY",
-      "UPDATE",
-      "CHANGE"
+      "<a>",
+      "<link>",
+      "<href>",
+      "<hyperlink>"
     ],
-    correctAnswer: "UPDATE"
+    correctAnswer: "<a>"
   },
   {
     id: 5,
-    question: "Which SQL statement is used to delete data from a database?",
+    question: "Which HTML element is used to specify a header for a document or section?",
     options: [
-      "REMOVE",
-      "DELETE",
-      "ERASE",
-      "DROP"
+      "<head>",
+      "<header>",
+      "<top>",
+      "<heading>"
     ],
-    correctAnswer: "DELETE"
+    correctAnswer: "<header>"
   },
   {
     id: 6,
-    question: "Which SQL statement is used to insert new data in a database?",
+    question: "Which HTML tag is used to define an unordered list?",
     options: [
-      "ADD",
-      "CREATE",
-      "INSERT",
-      "APPEND"
+      "<ul>",
+      "<ol>",
+      "<list>",
+      "<dl>"
     ],
-    correctAnswer: "INSERT"
+    correctAnswer: "<ul>"
   },
   {
     id: 7,
-    question: "Which SQL keyword is used to sort the result-set?",
+    question: "Which HTML element is used to define important text?",
     options: [
-      "SORT BY",
-      "ORDER BY",
-      "ARRANGE BY",
-      "GROUP BY"
+      "<strong>",
+      "<b>",
+      "<important>",
+      "<em>"
     ],
-    correctAnswer: "ORDER BY"
+    correctAnswer: "<strong>"
   },
   {
     id: 8,
-    question: "Which SQL statement is used to create a database?",
+    question: "What is the correct HTML for creating a checkbox?",
     options: [
-      "CREATE DATABASE",
-      "NEW DATABASE",
-      "ADD DATABASE",
-      "MAKE DATABASE"
+      "<input type='check'>",
+      "<check>",
+      "<input type='checkbox'>",
+      "<checkbox>"
     ],
-    correctAnswer: "CREATE DATABASE"
+    correctAnswer: "<input type='checkbox'>"
   },
   {
     id: 9,
-    question: "Which SQL statement is used to create a table?",
+    question: "What is the correct HTML for making a text input field?",
     options: [
-      "CREATE TABLE",
-      "NEW TABLE",
-      "ADD TABLE",
-      "MAKE TABLE"
+      "<textfield>",
+      "<input type='text'>",
+      "<input type='textfield'>",
+      "<textinput>"
     ],
-    correctAnswer: "CREATE TABLE"
+    correctAnswer: "<input type='text'>"
   },
   {
     id: 10,
-    question: "Which SQL statement is used to delete a table?",
+    question: "What is the correct HTML for creating a dropdown list?",
     options: [
-      "DELETE TABLE",
-      "REMOVE TABLE",
-      "DROP TABLE",
-      "ERASE TABLE"
+      "<input type='dropdown'>",
+      "<list>",
+      "<select>",
+      "<input type='list'>"
     ],
-    correctAnswer: "DROP TABLE"
+    correctAnswer: "<select>"
   },
   {
     id: 11,
-    question: "Which SQL statement is used to add a column in a table?",
+    question: "What does CSS stand for?",
     options: [
-      "ADD COLUMN",
-      "ALTER TABLE ADD",
-      "MODIFY TABLE ADD",
-      "INSERT COLUMN"
+      "Creative Style Sheets",
+      "Cascading Style Sheets",
+      "Computer Style Sheets",
+      "Colorful Style Sheets"
     ],
-    correctAnswer: "ALTER TABLE ADD"
+    correctAnswer: "Cascading Style Sheets"
   },
   {
     id: 12,
-    question: "Which SQL constraint is used to uniquely identify each record in a table?",
+    question: "Which CSS property is used to change the text color of an element?",
     options: [
-      "UNIQUE",
-      "PRIMARY KEY",
-      "INDEX",
-      "IDENTIFIER"
+      "text-color",
+      "color",
+      "font-color",
+      "text-style"
     ],
-    correctAnswer: "PRIMARY KEY"
+    correctAnswer: "color"
   },
   {
     id: 13,
-    question: "Which SQL keyword is used to retrieve only distinct values?",
+    question: "Which CSS property controls the text size?",
     options: [
-      "DISTINCT",
-      "UNIQUE",
-      "DIFFERENT",
-      "SEPARATE"
+      "text-size",
+      "font-style",
+      "font-size",
+      "text-style"
     ],
-    correctAnswer: "DISTINCT"
+    correctAnswer: "font-size"
   },
   {
     id: 14,
-    question: "Which SQL operator is used to search for a specified pattern in a column?",
+    question: "How do you select an element with id 'demo' in CSS?",
     options: [
-      "FIND",
-      "SEARCH",
-      "LIKE",
-      "MATCH"
+      ".demo",
+      "#demo",
+      "demo",
+      "*demo"
     ],
-    correctAnswer: "LIKE"
+    correctAnswer: "#demo"
   },
   {
     id: 15,
-    question: "Which SQL function is used to count the number of rows in a result set?",
+    question: "How do you select elements with class name 'test' in CSS?",
     options: [
-      "SUM()",
-      "COUNT()",
-      "TOTAL()",
-      "NUM()"
+      ".test",
+      "#test",
+      "test",
+      "*test"
     ],
-    correctAnswer: "COUNT()"
+    correctAnswer: ".test"
   },
   {
     id: 16,
-    question: "Which SQL function returns the average value of a numeric column?",
+    question: "Which CSS property is used to add space between the elements content and its border?",
     options: [
-      "AVG()",
-      "AVERAGE()",
-      "MEAN()",
-      "MID()"
+      "margin",
+      "spacing",
+      "padding",
+      "border-spacing"
     ],
-    correctAnswer: "AVG()"
+    correctAnswer: "padding"
   },
   {
     id: 17,
-    question: "Which SQL keyword is used to combine rows from two or more tables?",
+    question: "Which CSS property is used to set the background color?",
     options: [
-      "COMBINE",
-      "MERGE",
-      "JOIN",
-      "CONNECT"
+      "bgcolor",
+      "background-color",
+      "color-background",
+      "background"
     ],
-    correctAnswer: "JOIN"
+    correctAnswer: "background-color"
   },
   {
     id: 18,
-    question: "Which type of JOIN returns all rows from the left table and matching rows from the right table?",
+    question: "How do you make each word in a text start with a capital letter in CSS?",
     options: [
-      "INNER JOIN",
-      "LEFT JOIN",
-      "RIGHT JOIN",
-      "FULL JOIN"
+      "text-transform: capitalize",
+      "text-style: capital",
+      "transform: capitalize",
+      "font-transform: capitalize"
     ],
-    correctAnswer: "LEFT JOIN"
+    correctAnswer: "text-transform: capitalize"
   },
   {
     id: 19,
-    question: "Which SQL clause is used to group rows that have the same values?",
+    question: "Which CSS property is used to control the space between lines?",
     options: [
-      "CLUSTER BY",
-      "GROUP BY",
-      "ORGANIZE BY",
-      "COLLECT BY"
+      "line-height",
+      "line-spacing",
+      "spacing",
+      "line-space"
     ],
-    correctAnswer: "GROUP BY"
+    correctAnswer: "line-height"
   },
   {
     id: 20,
-    question: "Which SQL clause is used to filter groups?",
+    question: "Which CSS property is used to make a rounded border?",
     options: [
-      "WHERE",
-      "HAVING",
-      "FILTER",
-      "GROUP FILTER"
+      "border-round",
+      "border-style: round",
+      "border-radius",
+      "corner-radius"
     ],
-    correctAnswer: "HAVING"
+    correctAnswer: "border-radius"
   },
   {
     id: 21,
-    question: "Which SQL operator is used to combine multiple conditions in a WHERE clause?",
+    question: "How do you link an external JavaScript file to an HTML document?",
     options: [
-      "AND, OR",
-      "BOTH, EITHER",
-      "WITH, WITHOUT",
-      "PLUS, MINUS"
+      "<script href='script.js'>",
+      "<script name='script.js'>",
+      "<script src='script.js'>",
+      "<javascript src='script.js'>"
     ],
-    correctAnswer: "AND, OR"
+    correctAnswer: "<script src='script.js'>"
   },
   {
     id: 22,
-    question: "Which SQL statement is used to create an index on a table?",
+    question: "Where is the correct place to insert a JavaScript in an HTML document?",
     options: [
-      "CREATE INDEX",
-      "ADD INDEX",
-      "MAKE INDEX",
-      "INDEX TABLE"
+      "Both the <head> section and the <body> section are correct",
+      "The <head> section",
+      "The <body> section",
+      "The <footer> section"
     ],
-    correctAnswer: "CREATE INDEX"
+    correctAnswer: "Both the <head> section and the <body> section are correct"
   },
   {
     id: 23,
-    question: "Which SQL keyword is used to create a virtual table based on result-sets?",
+    question: "How do you write 'Hello World' in an alert box using JavaScript?",
     options: [
-      "VIRTUAL TABLE",
-      "VIEW",
-      "SNAPSHOT",
-      "TEMP TABLE"
+      "msgBox('Hello World');",
+      "alertBox('Hello World');",
+      "msg('Hello World');",
+      "alert('Hello World');"
     ],
-    correctAnswer: "VIEW"
+    correctAnswer: "alert('Hello World');"
   },
   {
     id: 24,
-    question: "Which SQL function returns the current date and time?",
+    question: "How do you create a function in JavaScript?",
     options: [
-      "NOW()",
-      "CURRENT()",
-      "TODAY()",
-      "GETDATE()"
+      "function myFunction()",
+      "function = myFunction()",
+      "function:myFunction()",
+      "create myFunction()"
     ],
-    correctAnswer: "NOW()"
+    correctAnswer: "function myFunction()"
   },
   {
     id: 25,
-    question: "Which SQL operator is used to test if a value is within a range?",
+    question: "How do you call a function named 'myFunction' in JavaScript?",
     options: [
-      "WITHIN",
-      "RANGE",
-      "BETWEEN",
-      "AMONG"
+      "call myFunction()",
+      "myFunction()",
+      "call function myFunction()",
+      "execute myFunction()"
     ],
-    correctAnswer: "BETWEEN"
+    correctAnswer: "myFunction()"
   },
   {
     id: 26,
-    question: "Which SQL operator is used to test if a value exists in a list?",
+    question: "How do you declare a JavaScript variable?",
     options: [
-      "EXISTS",
-      "IN",
-      "WITHIN",
-      "AMONG"
+      "v carName;",
+      "variable carName;",
+      "var carName;",
+      "declare carName;"
     ],
-    correctAnswer: "IN"
+    correctAnswer: "var carName;"
   },
   {
     id: 27,
-    question: "Which SQL function returns the highest value in a column?",
+    question: "Which operator is used to assign a value to a variable in JavaScript?",
     options: [
-      "TOP()",
-      "MAX()",
-      "HIGHEST()",
-      "UPPER()"
+      "*",
+      "-",
+      "=",
+      "x"
     ],
-    correctAnswer: "MAX()"
+    correctAnswer: "="
   },
   {
     id: 28,
-    question: "Which SQL function returns the lowest value in a column?",
+    question: "What is the correct way to write a JavaScript array?",
     options: [
-      "BOTTOM()",
-      "MIN()",
-      "LOWEST()",
-      "LOWER()"
+      "var colors = 'red', 'green', 'blue'",
+      "var colors = (1:'red', 2:'green', 3:'blue')",
+      "var colors = ['red', 'green', 'blue']",
+      "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
     ],
-    correctAnswer: "MIN()"
+    correctAnswer: "var colors = ['red', 'green', 'blue']"
   },
   {
     id: 29,
-    question: "Which SQL function returns the total sum of a numeric column?",
+    question: "How do you access the first element of an array in JavaScript?",
     options: [
-      "SUM()",
-      "TOTAL()",
-      "AMOUNT()",
-      "ADD()"
+      "array[0]",
+      "array.first()",
+      "array(1)",
+      "array.get(1)"
     ],
-    correctAnswer: "SUM()"
+    correctAnswer: "array[0]"
   },
   {
     id: 30,
-    question: "Which SQL statement is used to make permanent changes made by statements like INSERT, UPDATE, or DELETE?",
+    question: "How do you find the number of elements in a JavaScript array?",
     options: [
-      "SAVE",
-      "COMMIT",
-      "PERMANENT",
-      "STORE"
+      "array.count()",
+      "array.length",
+      "array.size()",
+      "array.length()"
     ],
-    correctAnswer: "COMMIT"
+    correctAnswer: "array.length"
   },
   {
     id: 31,
-    question: "Which SQL statement is used to undo changes that have not been saved to the database?",
+    question: "How do you write an IF statement in JavaScript?",
     options: [
-      "UNDO",
-      "ROLLBACK",
-      "REVERT",
-      "CANCEL"
+      "if i = 5 then",
+      "if i == 5 then",
+      "if (i == 5)",
+      "if i = 5"
     ],
-    correctAnswer: "ROLLBACK"
+    correctAnswer: "if (i == 5)"
   },
   {
     id: 32,
-    question: "Which SQL constraint is used to prevent duplicate values in a column?",
+    question: "How do you write an IF statement for executing code if 'i' is NOT equal to 5?",
     options: [
-      "UNIQUE",
-      "DISTINCT",
-      "DIFFERENT",
-      "NO DUPLICATE"
+      "if (i <> 5)",
+      "if i =! 5 then",
+      "if i <> 5",
+      "if (i != 5)"
     ],
-    correctAnswer: "UNIQUE"
+    correctAnswer: "if (i != 5)"
   },
   {
     id: 33,
-    question: "Which SQL constraint is used to ensure that a column cannot have NULL values?",
+    question: "How does a FOR loop start in JavaScript?",
     options: [
-      "NOT NULL",
-      "REQUIRED",
-      "MANDATORY",
-      "NO BLANKS"
+      "for (i = 0; i <= 5; i++)",
+      "for i = 1 to 5",
+      "for (i <= 5; i++)",
+      "for (i = 0; i <= 5)"
     ],
-    correctAnswer: "NOT NULL"
+    correctAnswer: "for (i = 0; i <= 5; i++)"
   },
   {
     id: 34,
-    question: "Which SQL constraint is used to enforce a relationship between two tables?",
+    question: "How do you add a comment in JavaScript?",
     options: [
-      "RELATION",
-      "FOREIGN KEY",
-      "REFERENCE",
-      "LINK"
+      "<!--This is a comment-->",
+      "//This is a comment",
+      "'This is a comment",
+      "#This is a comment"
     ],
-    correctAnswer: "FOREIGN KEY"
+    correctAnswer: "//This is a comment"
   },
   {
     id: 35,
-    question: "Which SQL keyword is used to specify a default value for a column?",
+    question: "What is the correct way to write a JavaScript object?",
     options: [
-      "DEFAULT",
-      "VALUE",
-      "PRESET",
-      "INITIAL"
+      "var person = {name: 'John', age: 30};",
+      "var person = {name = 'John', age = 30};",
+      "var person = (name: 'John', age: 30);",
+      "var person = [name: 'John', age: 30];"
     ],
-    correctAnswer: "DEFAULT"
+    correctAnswer: "var person = {name: 'John', age: 30};"
   },
   {
     id: 36,
-    question: "Which SQL statement is used to change the definition of a table?",
+    question: "How do you access the 'age' property of a 'person' object in JavaScript?",
     options: [
-      "MODIFY TABLE",
-      "CHANGE TABLE",
-      "ALTER TABLE",
-      "UPDATE TABLE"
+      "person.age",
+      "person[age]",
+      "person->age",
+      "person=>age"
     ],
-    correctAnswer: "ALTER TABLE"
+    correctAnswer: "person.age"
   },
   {
     id: 37,
-    question: "Which SQL operator is used to perform pattern matching with regular expressions?",
+    question: "How do you get the DOM element with the id 'demo' in JavaScript?",
     options: [
-      "REGEXP",
-      "REGEX",
-      "PATTERN",
-      "MATCH"
+      "document.getElement('demo')",
+      "document.getElementById('demo')",
+      "document.getElementByName('demo')",
+      "document.getElementByID('demo')"
     ],
-    correctAnswer: "REGEXP"
+    correctAnswer: "document.getElementById('demo')"
   },
   {
     id: 38,
-    question: "Which SQL function is used to return the number of characters in a text field?",
+    question: "How do you change the content of an HTML element with id 'demo' using JavaScript?",
     options: [
-      "LEN()",
-      "LENGTH()",
-      "CHARS()",
-      "COUNT()"
+      "document.getElementById('demo').innerHTML = 'Hello';",
+      "document.getElement('demo').innerHTML = 'Hello';",
+      "document.getId('demo').innerHTML = 'Hello';",
+      "#demo.innerHTML = 'Hello';"
     ],
-    correctAnswer: "LENGTH()"
+    correctAnswer: "document.getElementById('demo').innerHTML = 'Hello';"
   },
   {
     id: 39,
-    question: "Which SQL function is used to round a numeric field to the nearest integer?",
+    question: "How do you change the style of an HTML element using JavaScript?",
     options: [
-      "ROUND()",
-      "INTEGER()",
-      "TRUNCATE()",
-      "NEAREST()"
+      "document.getElementById('demo').css = 'color: red';",
+      "document.getElementById('demo').style.color = 'red';",
+      "document.getElementById('demo').style = 'color: red';",
+      "document.getElementByID('demo').css = 'color: red';"
     ],
-    correctAnswer: "ROUND()"
+    correctAnswer: "document.getElementById('demo').style.color = 'red';"
   },
   {
     id: 40,
-    question: "Which SQL function is used to convert text to uppercase?",
+    question: "How do you add a new element to an HTML DOM using JavaScript?",
     options: [
-      "UPPER()",
-      "UPPERCASE()",
-      "UPCASE()",
-      "CAPS()"
+      "document.createElement('p');",
+      "document.add('p');",
+      "document.addElement('p');",
+      "document.newElement('p');"
     ],
-    correctAnswer: "UPPER()"
+    correctAnswer: "document.createElement('p');"
   },
   {
     id: 41,
-    question: "Which SQL function is used to convert text to lowercase?",
+    question: "How do you add an event listener to an HTML element using JavaScript?",
     options: [
-      "LOWER()",
-      "LOWERCASE()",
-      "DOWNCASE()",
-      "SMALL()"
+      "document.getElementById('demo').addEventListener('click', function);",
+      "document.getElementById('demo').onClick = function;",
+      "document.getElementById('demo').event('click', function);",
+      "document.getElementById('demo').addEvent('click', function);"
     ],
-    correctAnswer: "LOWER()"
+    correctAnswer: "document.getElementById('demo').addEventListener('click', function);"
   },
   {
     id: 42,
-    question: "Which SQL statement is used to grant privileges to users?",
+    question: "What is the correct JavaScript syntax to change the content of the HTML element below? <p id='demo'>This is a demonstration.</p>",
     options: [
-      "ALLOW",
-      "PERMIT",
-      "GRANT",
-      "AUTHORIZE"
+      "document.getElementByName('p').innerHTML = 'Hello World!';",
+      "document.getElementById('demo').innerHTML = 'Hello World!';",
+      "#demo.innerHTML = 'Hello World!';",
+      "document.getElement('p').innerHTML = 'Hello World!';"
     ],
-    correctAnswer: "GRANT"
+    correctAnswer: "document.getElementById('demo').innerHTML = 'Hello World!';"
   },
   {
     id: 43,
-    question: "Which SQL statement is used to remove privileges from users?",
+    question: "What is the correct JavaScript syntax to select all <p> elements?",
     options: [
-      "DENY",
-      "REVOKE",
-      "REMOVE",
-      "RESTRICT"
+      "document.querySelectorAll('p')",
+      "document.getElementByTagName('p')",
+      "document.getElement('p')",
+      "document.querySelector('p')"
     ],
-    correctAnswer: "REVOKE"
+    correctAnswer: "document.querySelectorAll('p')"
   },
   {
     id: 44,
-    question: "Which SQL keyword is used to exclude duplicate values in a result set?",
+    question: "What is the JavaScript syntax for printing values in the console?",
     options: [
-      "UNIQUE",
-      "DISTINCT",
-      "DIFFERENT",
-      "EXCLUDE"
+      "print(5)",
+      "console.print(5)",
+      "console.log(5)",
+      "log.console(5)"
     ],
-    correctAnswer: "DISTINCT"
+    correctAnswer: "console.log(5)"
   },
   {
     id: 45,
-    question: "Which SQL operator is used to combine the results of two SELECT statements?",
+    question: "What is the JavaScript data type of [1,2,3,4]?",
     options: [
-      "COMBINE",
-      "UNION",
-      "JOIN",
-      "MERGE"
+      "Object",
+      "Array",
+      "List",
+      "Table"
     ],
-    correctAnswer: "UNION"
+    correctAnswer: "Array"
   },
   {
     id: 46,
-    question: "Which SQL clause is used to limit the number of rows returned in a result set?",
+    question: "How do you convert a JavaScript string to a number?",
     options: [
-      "LIMIT",
-      "ROWNUM",
-      "TOP",
-      "MAX"
-    ],
-    correctAnswer: "LIMIT"
-  },
-  {
-    id: 47,
-    question: "Which SQL statement is used to begin a transaction?",
-    options: [
-      "BEGIN TRANSACTION",
-      "START TRANSACTION",
-      "INIT TRANSACTION",
-      "OPEN TRANSACTION"
-    ],
-    correctAnswer: "BEGIN TRANSACTION"
-  },
-  {
-    id: 48,
-    question: "Which SQL function returns the current user of the database?",
-    options: [
-      "CURRENT_USER()",
-      "USER()",
-      "ACTIVE_USER()",
-      "SESSION_USER()"
-    ],
-    correctAnswer: "CURRENT_USER()"
-  },
-  {
-    id: 49,
-    question: "Which SQL function returns a substring from a string?",
-    options: [
-      "SUBSTRING()",
-      "SUBSTR()",
-      "MID()",
-      "All of the above"
-    ],
-    correctAnswer: "All of the above"
-  },
-  {
-    id: 50,
-    question: "Which SQL statement is used to create a stored procedure?",
-    options: [
-      "CREATE PROCEDURE",
-      "MAKE PROCEDURE",
-      "ADD PROCEDURE",
-      "NEW PROCEDURE"
-    ],
-    correctAnswer: "CREATE PROCEDURE"
-  },
-  {
-    id: 51,
-    question: "Which SQL statement is used to execute a stored procedure?",
-    options: [
-      "EXECUTE",
-      "CALL",
-      "RUN",
-      "START"
-    ],
-    correctAnswer: "CALL"
-  },
-  {
-    id: 52,
-    question: "Which SQL function returns the current database name?",
-    options: [
-      "CURRENT_DB()",
-      "DATABASE()",
-      "DB_NAME()",
-      "SCHEMA()"
-    ],
-    correctAnswer: "DATABASE()"
-  },
-  {
-    id: 53,
-    question: "Which SQL statement is used to create a trigger?",
-    options: [
-      "CREATE TRIGGER",
-      "ADD TRIGGER",
-      "NEW TRIGGER",
-      "MAKE TRIGGER"
-    ],
-    correctAnswer: "CREATE TRIGGER"
-  },
-  {
-    id: 54,
-    question: "Which SQL function is used to concatenate strings?",
-    options: [
-      "CONCAT()",
-      "APPEND()",
-      "JOIN()",
-      "COMBINE()"
-    ],
-    correctAnswer: "CONCAT()"
-  },
-  {
-    id: 55,
-    question: "Which SQL data type is used to store text values?",
-    options: [
-      "TEXT",
-      "VARCHAR",
-      "CHAR",
-      "All of the above"
-    ],
-    correctAnswer: "All of the above"
-  },
-  {
-    id: 56,
-    question: "Which SQL data type is used to store whole numbers?",
-    options: [
-      "INTEGER",
-      "DECIMAL",
-      "FLOAT",
-      "NUMERIC"
-    ],
-    correctAnswer: "INTEGER"
-  },
-  {
-    id: 57,
-    question: "Which SQL data type is used to store date values?",
-    options: [
-      "DATE",
-      "TIME",
-      "DATETIME",
-      "TIMESTAMP"
-    ],
-    correctAnswer: "DATE"
-  },
-  {
-    id: 58,
-    question: "Which SQL function returns the current date?",
-    options: [
-      "GETDATE()",
-      "CURDATE()",
-      "TODAY()",
-      "CURRENT_DATE()"
-    ],
-    correctAnswer: "CURDATE()"
-  },
-  {
-    id: 59,
-    question: "Which SQL statement is used to delete a database?",
-    options: [
-      "DELETE DATABASE",
-      "REMOVE DATABASE",
-      "DROP DATABASE",
-      "ERASE DATABASE"
-    ],
-    correctAnswer: "DROP DATABASE"
-  },
-  {
-    id: 60,
-    question: "Which SQL operator tests column for absence of NULL values?",
-    options: [
-      "IS NOT NULL",
-      "NOT NULL",
-      "!= NULL",
-      "<> NULL"
-    ],
-    correctAnswer: "IS NOT NULL"
-  },
-  {
-    id: 61,
-    question: "Which SQL clause is used to sort in descending order?",
-    options: [
-      "ORDER BY ... DESC",
-      "SORT BY ... DESC",
-      "ORDER DESC",
-      "DESCENDING ORDER"
-    ],
-    correctAnswer: "ORDER BY ... DESC"
-  },
-  {
-    id: 62,
-    question: "Which SQL join returns only the rows where there is a match in both tables?",
-    options: [
-      "INNER JOIN",
-      "OUTER JOIN",
-      "FULL JOIN",
-      "NATURAL JOIN"
-    ],
-    correctAnswer: "INNER JOIN"
-  },
-  {
-    id: 63,
-    question: "Which SQL statement is used to empty a table without deleting the table structure?",
-    options: [
-      "DELETE FROM table",
-      "TRUNCATE TABLE table",
-      "EMPTY TABLE table",
-      "CLEAR TABLE table"
-    ],
-    correctAnswer: "TRUNCATE TABLE table"
-  },
-  {
-    id: 64,
-    question: "Which SQL function returns the remainder after division?",
-    options: [
-      "MOD()",
-      "REMAINDER()",
-      "MODULUS()",
-      "DIV()"
-    ],
-    correctAnswer: "MOD()"
-  },
-  {
-    id: 65,
-    question: "Which SQL statement is used to create a database user?",
-    options: [
-      "CREATE USER",
-      "ADD USER",
-      "NEW USER",
-      "MAKE USER"
-    ],
-    correctAnswer: "CREATE USER"
-  },
-  {
-    id: 66,
-    question: "Which SQL operator is used to perform a case-insensitive match?",
-    options: [
-      "LIKE",
-      "ILIKE",
-      "SIMILAR TO",
-      "MATCH"
-    ],
-    correctAnswer: "ILIKE"
-  },
-  {
-    id: 67,
-    question: "Which SQL statement is used to add a comment to a table?",
-    options: [
-      "COMMENT ON TABLE",
-      "ADD COMMENT",
-      "TABLE COMMENT",
-      "DESCRIBE TABLE"
-    ],
-    correctAnswer: "COMMENT ON TABLE"
-  },
-  {
-    id: 68,
-    question: "Which SQL function returns the absolute value of a number?",
-    options: [
-      "ABS()",
-      "ABSOLUTE()",
-      "ABSVAL()",
-      "MAGNITUDE()"
-    ],
-    correctAnswer: "ABS()"
-  },
-  {
-    id: 69,
-    question: "Which SQL statement is used to rename a table?",
-    options: [
-      "RENAME TABLE",
-      "ALTER TABLE RENAME",
-      "MODIFY TABLE NAME",
-      "CHANGE TABLE"
-    ],
-    correctAnswer: "ALTER TABLE RENAME"
-  },
-  {
-    id: 70,
-    question: "Which SQL function returns the position of a substring within a string?",
-    options: [
-      "POSITION()",
-      "LOCATE()",
-      "INSTR()",
-      "All of the above"
-    ],
-    correctAnswer: "All of the above"
-  },
-  {
-    id: 71,
-    question: "Which SQL statement is used to create a temporary table?",
-    options: [
-      "CREATE TEMP TABLE",
-      "CREATE TEMPORARY TABLE",
-      "MAKE TEMP TABLE",
-      "ADD TEMPORARY TABLE"
-    ],
-    correctAnswer: "CREATE TEMPORARY TABLE"
-  },
-  {
-    id: 72,
-    question: "Which SQL function returns a random number?",
-    options: [
-      "RANDOM()",
-      "RAND()",
-      "RND()",
-      "RANDOMIZE()"
-    ],
-    correctAnswer: "RAND()"
-  },
-  {
-    id: 73,
-    question: "Which SQL operator is used to perform a full-text search?",
-    options: [
-      "SEARCH",
-      "MATCH",
-      "CONTAINS",
-      "FULLTEXT"
-    ],
-    correctAnswer: "MATCH"
-  },
-  {
-    id: 74,
-    question: "Which SQL statement is used to create a foreign key?",
-    options: [
-      "CREATE FOREIGN KEY",
-      "ADD FOREIGN KEY",
-      "ALTER TABLE ADD FOREIGN KEY",
-      "REFERENCE KEY"
-    ],
-    correctAnswer: "ALTER TABLE ADD FOREIGN KEY"
-  },
-  {
-    id: 75,
-    question: "Which SQL function returns the square root of a number?",
-    options: [
-      "SQRT()",
-      "SQUAREROOT()",
-      "ROOT()",
-      "SQR()"
-    ],
-    correctAnswer: "SQRT()"
-  },
-  {
-    id: 76,
-    question: "Which SQL statement is used to create a sequence?",
-    options: [
-      "CREATE SEQUENCE",
-      "ADD SEQUENCE",
-      "NEW SEQUENCE",
-      "MAKE SEQUENCE"
-    ],
-    correctAnswer: "CREATE SEQUENCE"
-  },
-  {
-    id: 77,
-    question: "Which SQL function returns the number of rows affected by an INSERT, UPDATE, or DELETE statement?",
-    options: [
-      "AFFECTED_ROWS()",
-      "ROW_COUNT()",
-      "CHANGED()",
-      "MODIFIED()"
-    ],
-    correctAnswer: "ROW_COUNT()"
-  },
-  {
-    id: 78,
-    question: "Which SQL statement is used to create a materialized view?",
-    options: [
-      "CREATE MATERIALIZED VIEW",
-      "ADD MATERIALIZED VIEW",
-      "MAKE MATERIALIZED VIEW",
-      "NEW MATERIALIZED VIEW"
-    ],
-    correctAnswer: "CREATE MATERIALIZED VIEW"
-  },
-  {
-    id: 79,
-    question: "Which SQL function returns the day of the month from a date value?",
-    options: [
-      "DAY()",
-      "DAYOFMONTH()",
-      "EXTRACT(DAY FROM date)",
-      "All of the above"
-    ],
-    correctAnswer: "All of the above"
-  },
-  {
-    id: 80,
-    question: "Which SQL statement is used to create a partition in a table?",
-    options: [
-      "CREATE PARTITION",
-      "ADD PARTITION",
-      "PARTITION TABLE",
-      "ALTER TABLE ... PARTITION BY"
-    ],
-    correctAnswer: "ALTER TABLE ... PARTITION BY"
-  },
-  {
-    id: 81,
-    question: "Which SQL function returns the last day of the month?",
-    options: [
-      "LAST_DAY()",
-      "MONTH_END()",
-      "END_OF_MONTH()",
-      "LASTDAY()"
-    ],
-    correctAnswer: "LAST_DAY()"
-  },
-  {
-    id: 82,
-    question: "Which SQL statement is used to create a schema?",
-    options: [
-      "CREATE SCHEMA",
-      "ADD SCHEMA",
-      "NEW SCHEMA",
-      "MAKE SCHEMA"
-    ],
-    correctAnswer: "CREATE SCHEMA"
-  },
-  {
-    id: 83,
-    question: "Which SQL function returns the largest integer less than or equal to a number?",
-    options: [
-      "FLOOR()",
-      "ROUND_DOWN()",
-      "TRUNCATE()",
-      "INT()"
-    ],
-    correctAnswer: "FLOOR()"
-  },
-  {
-    id: 84,
-    question: "Which SQL statement is used to create a role?",
-    options: [
-      "CREATE ROLE",
-      "ADD ROLE",
-      "NEW ROLE",
-      "MAKE ROLE"
-    ],
-    correctAnswer: "CREATE ROLE"
-  },
-  {
-    id: 85,
-    question: "Which SQL function returns the smallest integer greater than or equal to a number?",
-    options: [
-      "CEILING()",
-      "CEIL()",
-      "ROUND_UP()",
+      "parseInt()",
+      "Number()",
+      "toNumber()",
       "Both A and B"
     ],
     correctAnswer: "Both A and B"
   },
   {
-    id: 86,
-    question: "Which SQL statement is used to create a domain?",
+    id: 47,
+    question: "How do you check if a variable is an array in JavaScript?",
     options: [
-      "CREATE DOMAIN",
-      "ADD DOMAIN",
-      "NEW DOMAIN",
-      "MAKE DOMAIN"
+      "typeof variable === 'array'",
+      "variable.isArray()",
+      "Array.isArray(variable)",
+      "variable instanceof Array"
     ],
-    correctAnswer: "CREATE DOMAIN"
+    correctAnswer: "Array.isArray(variable)"
   },
   {
-    id: 87,
-    question: "Which SQL function returns the power of a number?",
+    id: 48,
+    question: "Which method removes the last element from a JavaScript array?",
     options: [
-      "POWER()",
-      "POW()",
-      "EXP()",
-      "EXPONENT()"
+      "pop()",
+      "last()",
+      "remove()",
+      "deleteLast()"
     ],
-    correctAnswer: "POWER()"
+    correctAnswer: "pop()"
   },
   {
-    id: 88,
-    question: "Which SQL statement is used to create a tablespace?",
+    id: 49,
+    question: "Which method adds a new element to the end of a JavaScript array?",
     options: [
-      "CREATE TABLESPACE",
-      "ADD TABLESPACE",
-      "NEW TABLESPACE",
-      "MAKE TABLESPACE"
+      "add()",
+      "append()",
+      "push()",
+      "insert()"
     ],
-    correctAnswer: "CREATE TABLESPACE"
+    correctAnswer: "push()"
   },
   {
-    id: 89,
-    question: "Which SQL function returns the natural logarithm of a number?",
+    id: 50,
+    question: "What is the correct way to create a JavaScript Date object for the current date and time?",
     options: [
-      "LN()",
-      "LOG()",
-      "NLOG()",
-      "NATURALLOG()"
+      "var d = Date.create();",
+      "var d = new Date();",
+      "var d = Date().current();",
+      "var d = Date.now();"
     ],
-    correctAnswer: "LN()"
-  },
-  {
-    id: 90,
-    question: "Which SQL statement is used to create a type?",
-    options: [
-      "CREATE TYPE",
-      "ADD TYPE",
-      "NEW TYPE",
-      "MAKE TYPE"
-    ],
-    correctAnswer: "CREATE TYPE"
-  },
-  {
-    id: 91,
-    question: "Which SQL function returns the base-10 logarithm of a number?",
-    options: [
-      "LOG10()",
-      "LOG(10,n)",
-      "DECIMALLOG()",
-      "BASELOG(10,n)"
-    ],
-    correctAnswer: "LOG10()"
-  },
-  {
-    id: 92,
-    question: "Which SQL statement is used to create an extension?",
-    options: [
-      "CREATE EXTENSION",
-      "ADD EXTENSION",
-      "NEW EXTENSION",
-      "MAKE EXTENSION"
-    ],
-    correctAnswer: "CREATE EXTENSION"
-  },
-  {
-    id: 93,
-    question: "Which SQL function returns the sign of a number?",
-    options: [
-      "SIGN()",
-      "SIGNUM()",
-      "SGN()",
-      "SIGNATURE()"
-    ],
-    correctAnswer: "SIGN()"
-  },
-  {
-    id: 94,
-    question: "Which SQL statement is used to create a function?",
-    options: [
-      "CREATE FUNCTION",
-      "ADD FUNCTION",
-      "NEW FUNCTION",
-      "MAKE FUNCTION"
-    ],
-    correctAnswer: "CREATE FUNCTION"
-  },
-  {
-    id: 95,
-    question: "Which SQL function returns the factorial of a number?",
-    options: [
-      "FACTORIAL()",
-      "FACT()",
-      "There is no standard SQL factorial function",
-      "FAC()"
-    ],
-    correctAnswer: "There is no standard SQL factorial function"
-  },
-  {
-    id: 96,
-    question: "Which SQL statement is used to create a cast?",
-    options: [
-      "CREATE CAST",
-      "ADD CAST",
-      "NEW CAST",
-      "MAKE CAST"
-    ],
-    correctAnswer: "CREATE CAST"
-  },
-  {
-    id: 97,
-    question: "Which SQL function returns the value of pi?",
-    options: [
-      "PI()",
-      "CONST_PI()",
-      "3.14159()",
-      "MATH_PI()"
-    ],
-    correctAnswer: "PI()"
-  },
-  {
-    id: 98,
-    question: "Which SQL statement is used to create an aggregate function?",
-    options: [
-      "CREATE AGGREGATE",
-      "ADD AGGREGATE",
-      "NEW AGGREGATE",
-      "MAKE AGGREGATE"
-    ],
-    correctAnswer: "CREATE AGGREGATE"
-  },
-  {
-    id: 99,
-    question: "Which SQL function returns the exponential value of a number?",
-    options: [
-      "EXP()",
-      "EXPONENT()",
-      "POWER(e,n)",
-      "E_POWER()"
-    ],
-    correctAnswer: "EXP()"
-  },
-  {
-    id: 100,
-    question: "Which SQL statement is used to create an operator?",
-    options: [
-      "CREATE OPERATOR",
-      "ADD OPERATOR",
-      "NEW OPERATOR",
-      "MAKE OPERATOR"
-    ],
-    correctAnswer: "CREATE OPERATOR"
+    correctAnswer: "var d = new Date();"
   }
 ];
