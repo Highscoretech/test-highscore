@@ -1,552 +1,552 @@
 export const testQuestions = [
   {
     id: 1,
-    question: "What does HTML stand for?",
+    question: "What is the result of: let x = [1,2,3]; x[10] = 99; x.length?",
     options: [
-      "Hyper Text Markup Language",
-      "High Tech Modern Language",
-      "Hyperlink Text Management Language",
-      "Home Tool Markup Language"
+      "3",
+      "11",
+      "10",
+      "99"
     ],
-    correctAnswer: "Hyper Text Markup Language"
+    correctAnswer: "11"
   },
   {
     id: 2,
-    question: "Which HTML tag is used to define an internal style sheet?",
+    question: "Which of the following will NOT clone an object in JavaScript?",
     options: [
-      "<css>",
-      "<script>",
-      "<style>",
-      "<link>"
+      "Object.assign({}, obj)",
+      "JSON.parse(JSON.stringify(obj))",
+      "let clone = {...obj}",
+      "let clone = obj"
     ],
-    correctAnswer: "<style>"
+    correctAnswer: "let clone = obj"
   },
   {
     id: 3,
-    question: "Which HTML attribute is used to define inline styles?",
+    question: "What is the output of: typeof null?",
     options: [
-      "class",
-      "styles",
-      "style",
-      "font"
+      "'null'",
+      "'object'",
+      "'undefined'",
+      "'number'"
     ],
-    correctAnswer: "style"
+    correctAnswer: "'object'"
   },
   {
     id: 4,
-    question: "Which HTML tag is used to create a hyperlink?",
+    question: "Which method can be used to deeply compare two objects for equality?",
     options: [
-      "<a>",
-      "<link>",
-      "<href>",
-      "<hyperlink>"
+      "Object.is(obj1, obj2)",
+      "JSON.stringify(obj1) === JSON.stringify(obj2)",
+      "obj1 == obj2",
+      "obj1 === obj2"
     ],
-    correctAnswer: "<a>"
+    correctAnswer: "JSON.stringify(obj1) === JSON.stringify(obj2)"
   },
   {
     id: 5,
-    question: "Which HTML element is used to specify a header for a document or section?",
+    question: "What is the output of: [1,2,3].map(parseInt)?",
     options: [
-      "<head>",
-      "<header>",
-      "<top>",
-      "<heading>"
+      "[1, NaN, NaN]",
+      "[1, 2, 3]",
+      "[NaN, NaN, NaN]",
+      "[1, 2, NaN]"
     ],
-    correctAnswer: "<header>"
+    correctAnswer: "[1, NaN, NaN]"
   },
   {
     id: 6,
-    question: "Which HTML tag is used to define an unordered list?",
+    question: "How do you create a private field in a JavaScript class?",
     options: [
-      "<ul>",
-      "<ol>",
-      "<list>",
-      "<dl>"
+      "this._field",
+      "#field",
+      "private field",
+      "field: private"
     ],
-    correctAnswer: "<ul>"
+    correctAnswer: "#field"
   },
   {
     id: 7,
-    question: "Which HTML element is used to define important text?",
+    question: "Which of the following is NOT a valid way to declare a variable in ES6?",
     options: [
-      "<strong>",
-      "<b>",
-      "<important>",
-      "<em>"
+      "let x = 1;",
+      "const x = 1;",
+      "var x = 1;",
+      "int x = 1;"
     ],
-    correctAnswer: "<strong>"
+    correctAnswer: "int x = 1;"
   },
   {
     id: 8,
-    question: "What is the correct HTML for creating a checkbox?",
+    question: "What is the output of: (() => { let a = 5; return typeof a; })();",
     options: [
-      "<input type='check'>",
-      "<check>",
-      "<input type='checkbox'>",
-      "<checkbox>"
+      "'number'",
+      "'undefined'",
+      "'object'",
+      "'string'"
     ],
-    correctAnswer: "<input type='checkbox'>"
+    correctAnswer: "'number'"
   },
   {
     id: 9,
-    question: "What is the correct HTML for making a text input field?",
+    question: "Which statement about JavaScript closures is TRUE?",
     options: [
-      "<textfield>",
-      "<input type='text'>",
-      "<input type='textfield'>",
-      "<textinput>"
+      "Closures can only access global variables.",
+      "Closures cannot access variables from their parent scope.",
+      "Closures retain access to the scope in which they were created.",
+      "Closures are only available in ES6."
     ],
-    correctAnswer: "<input type='text'>"
+    correctAnswer: "Closures retain access to the scope in which they were created."
   },
   {
     id: 10,
-    question: "What is the correct HTML for creating a dropdown list?",
+    question: "What is the output of: [1,2,3].forEach((x, i, arr) => arr[i] = x * 2);",
     options: [
-      "<input type='dropdown'>",
-      "<list>",
-      "<select>",
-      "<input type='list'>"
+      "[2,4,6]",
+      "[1,2,3]",
+      "undefined",
+      "[2,2,2]"
     ],
-    correctAnswer: "<select>"
+    correctAnswer: "[2,4,6]"
   },
   {
     id: 11,
-    question: "What does CSS stand for?",
+    question: "Which of the following will NOT create a new array?",
     options: [
-      "Creative Style Sheets",
-      "Cascading Style Sheets",
-      "Computer Style Sheets",
-      "Colorful Style Sheets"
+      "arr.slice()",
+      "[...arr]",
+      "arr.map(x => x)",
+      "arr"
     ],
-    correctAnswer: "Cascading Style Sheets"
+    correctAnswer: "arr"
   },
   {
     id: 12,
-    question: "Which CSS property is used to change the text color of an element?",
+    question: "What is the output of: let a = {}; let b = a; a.x = 1; b.x?",
     options: [
-      "text-color",
-      "color",
-      "font-color",
-      "text-style"
+      "undefined",
+      "1",
+      "null",
+      "Error"
     ],
-    correctAnswer: "color"
+    correctAnswer: "1"
   },
   {
     id: 13,
-    question: "Which CSS property controls the text size?",
+    question: "Which of the following is NOT a valid way to define a function in JavaScript?",
     options: [
-      "text-size",
-      "font-style",
-      "font-size",
-      "text-style"
+      "function foo() {}",
+      "const foo = function() {}",
+      "const foo = () => {}",
+      "def foo() {}"
     ],
-    correctAnswer: "font-size"
+    correctAnswer: "def foo() {}"
   },
   {
     id: 14,
-    question: "How do you select an element with id 'demo' in CSS?",
+    question: "What is the output of: class A { static x = 1; }; A.x;",
     options: [
-      ".demo",
-      "#demo",
-      "demo",
-      "*demo"
+      "undefined",
+      "1",
+      "Error",
+      "null"
     ],
-    correctAnswer: "#demo"
+    correctAnswer: "1"
   },
   {
     id: 15,
-    question: "How do you select elements with class name 'test' in CSS?",
+    question: "Which of the following will NOT throw an error?",
     options: [
-      ".test",
-      "#test",
-      "test",
-      "*test"
+      "const a = 1; a = 2;",
+      "let a = 1; a = 2;",
+      "Object.freeze({a:1}).a = 2;",
+      "const obj = Object.freeze({a:1}); obj.a = 2;"
     ],
-    correctAnswer: ".test"
+    correctAnswer: "let a = 1; a = 2;"
   },
   {
     id: 16,
-    question: "Which CSS property is used to add space between the elements content and its border?",
+    question: "How do you check if a property exists in an object?",
     options: [
-      "margin",
-      "spacing",
-      "padding",
-      "border-spacing"
+      "'prop' in obj",
+      "obj.hasOwnProperty('prop')",
+      "obj.prop !== undefined",
+      "All of the above"
     ],
-    correctAnswer: "padding"
+    correctAnswer: "All of the above"
   },
   {
     id: 17,
-    question: "Which CSS property is used to set the background color?",
+    question: "What is the output of: [1,2,3].reduce((a,b) => a+b, 0);",
     options: [
-      "bgcolor",
-      "background-color",
-      "color-background",
-      "background"
+      "6",
+      "0",
+      "1",
+      "Error"
     ],
-    correctAnswer: "background-color"
+    correctAnswer: "6"
   },
   {
     id: 18,
-    question: "How do you make each word in a text start with a capital letter in CSS?",
+    question: "Which of the following is NOT a valid array method?",
     options: [
-      "text-transform: capitalize",
-      "text-style: capital",
-      "transform: capitalize",
-      "font-transform: capitalize"
+      "map",
+      "reduce",
+      "filter",
+      "collect"
     ],
-    correctAnswer: "text-transform: capitalize"
+    correctAnswer: "collect"
   },
   {
     id: 19,
-    question: "Which CSS property is used to control the space between lines?",
+    question: "What is the output of: [1,2,3].concat([4,5])?",
     options: [
-      "line-height",
-      "line-spacing",
-      "spacing",
-      "line-space"
+      "[1,2,3,4,5]",
+      "[1,2,3].concat([4,5])",
+      "[1,2,3].append([4,5])",
+      "Error"
     ],
-    correctAnswer: "line-height"
+    correctAnswer: "[1,2,3,4,5]"
   },
   {
     id: 20,
-    question: "Which CSS property is used to make a rounded border?",
+    question: "How do you remove the first element from an array in JavaScript?",
     options: [
-      "border-round",
-      "border-style: round",
-      "border-radius",
-      "corner-radius"
+      "shift()",
+      "unshift()",
+      "pop()",
+      "deleteFirst()"
     ],
-    correctAnswer: "border-radius"
+    correctAnswer: "shift()"
   },
   {
     id: 21,
-    question: "How do you link an external JavaScript file to an HTML document?",
+    question: "What is the output of: '5' + 3 - 1?",
     options: [
-      "<script href='script.js'>",
-      "<script name='script.js'>",
-      "<script src='script.js'>",
-      "<javascript src='script.js'>"
+      "53",
+      "57",
+      "Invalid operation",
+      "8"
     ],
-    correctAnswer: "<script src='script.js'>"
+    correctAnswer: "8"
   },
   {
     id: 22,
-    question: "Where is the correct place to insert a JavaScript in an HTML document?",
+    question: "Which of the following is a JavaScript primitive data type?",
     options: [
-      "Both the <head> section and the <body> section are correct",
-      "The <head> section",
-      "The <body> section",
-      "The <footer> section"
+      "String",
+      "Boolean",
+      "Number",
+      "All of the above"
     ],
-    correctAnswer: "Both the <head> section and the <body> section are correct"
+    correctAnswer: "All of the above"
   },
   {
     id: 23,
-    question: "How do you write 'Hello World' in an alert box using JavaScript?",
+    question: "What is the output of: Boolean('')?",
     options: [
-      "msgBox('Hello World');",
-      "alertBox('Hello World');",
-      "msg('Hello World');",
-      "alert('Hello World');"
+      "true",
+      "false",
+      "null",
+      "undefined"
     ],
-    correctAnswer: "alert('Hello World');"
+    correctAnswer: "false"
   },
   {
     id: 24,
-    question: "How do you create a function in JavaScript?",
+    question: "How do you create a new instance of an object in JavaScript?",
     options: [
-      "function myFunction()",
-      "function = myFunction()",
-      "function:myFunction()",
-      "create myFunction()"
+      "let obj = new Object();",
+      "let obj = Object.create();",
+      "let obj = {};",
+      "All of the above"
     ],
-    correctAnswer: "function myFunction()"
+    correctAnswer: "All of the above"
   },
   {
     id: 25,
-    question: "How do you call a function named 'myFunction' in JavaScript?",
+    question: "What is the output of: (function() { return typeof arguments; })();",
     options: [
-      "call myFunction()",
-      "myFunction()",
-      "call function myFunction()",
-      "execute myFunction()"
+      "'object'",
+      "'undefined'",
+      "'array'",
+      "'arguments'"
     ],
-    correctAnswer: "myFunction()"
+    correctAnswer: "'object'"
   },
   {
     id: 26,
-    question: "How do you declare a JavaScript variable?",
+    question: "Which of the following methods can be used to convert an object to a JSON string?",
     options: [
-      "v carName;",
-      "variable carName;",
-      "var carName;",
-      "declare carName;"
+      "JSON.stringify()",
+      "JSON.parse()",
+      "Object.toJSON()",
+      "Object.stringify()"
     ],
-    correctAnswer: "var carName;"
+    correctAnswer: "JSON.stringify()"
   },
   {
     id: 27,
-    question: "Which operator is used to assign a value to a variable in JavaScript?",
+    question: "What is the output of: Math.max() + Math.min()?",
     options: [
-      "*",
-      "-",
-      "=",
-      "x"
+      "NaN",
+      "undefined",
+      "Infinity",
+      "Error"
     ],
-    correctAnswer: "="
+    correctAnswer: "NaN"
   },
   {
     id: 28,
-    question: "What is the correct way to write a JavaScript array?",
+    question: "How do you declare a constant in JavaScript?",
     options: [
-      "var colors = 'red', 'green', 'blue'",
-      "var colors = (1:'red', 2:'green', 3:'blue')",
-      "var colors = ['red', 'green', 'blue']",
-      "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+      "const x = 1;",
+      "let x = 1;",
+      "var x = 1;",
+      "constant x = 1;"
     ],
-    correctAnswer: "var colors = ['red', 'green', 'blue']"
+    correctAnswer: "const x = 1;"
   },
   {
     id: 29,
-    question: "How do you access the first element of an array in JavaScript?",
+    question: "What is the output of: [1,2,3].slice(1,2)?",
     options: [
-      "array[0]",
-      "array.first()",
-      "array(1)",
-      "array.get(1)"
+      "[2]",
+      "[1,2]",
+      "[2,3]",
+      "Error"
     ],
-    correctAnswer: "array[0]"
+    correctAnswer: "[2]"
   },
   {
     id: 30,
-    question: "How do you find the number of elements in a JavaScript array?",
+    question: "Which of the following is a correct way to write a ternary operator in JavaScript?",
     options: [
-      "array.count()",
-      "array.length",
-      "array.size()",
-      "array.length()"
+      "condition ? expr1 : expr2",
+      "condition ? expr1 ; expr2",
+      "condition : expr1 ? expr2",
+      "if (condition) expr1 else expr2"
     ],
-    correctAnswer: "array.length"
+    correctAnswer: "condition ? expr1 : expr2"
   },
   {
     id: 31,
-    question: "How do you write an IF statement in JavaScript?",
+    question: "What is the output of: 'Hello' + +'World'?",
     options: [
-      "if i = 5 then",
-      "if i == 5 then",
-      "if (i == 5)",
-      "if i = 5"
+      "'HelloWorld'",
+      "'Hello NaN'",
+      "'Hello '",
+      "Error"
     ],
-    correctAnswer: "if (i == 5)"
+    correctAnswer: "'Hello World'"
   },
   {
     id: 32,
-    question: "How do you write an IF statement for executing code if 'i' is NOT equal to 5?",
+    question: "How do you create a new array with elements 1 through 5 in JavaScript?",
     options: [
-      "if (i <> 5)",
-      "if i =! 5 then",
-      "if i <> 5",
-      "if (i != 5)"
+      "Array(1,2,3,4,5)",
+      "new Array(1,2,3,4,5)",
+      "Array.of(1,2,3,4,5)",
+      "All of the above"
     ],
-    correctAnswer: "if (i != 5)"
+    correctAnswer: "All of the above"
   },
   {
     id: 33,
-    question: "How does a FOR loop start in JavaScript?",
+    question: "What is the output of: (1, 2, 3).reduce((a, b) => a + b)?",
     options: [
-      "for (i = 0; i <= 5; i++)",
-      "for i = 1 to 5",
-      "for (i <= 5; i++)",
-      "for (i = 0; i <= 5)"
+      "6",
+      "undefined",
+      "Error",
+      "NaN"
     ],
-    correctAnswer: "for (i = 0; i <= 5; i++)"
+    correctAnswer: "Error"
   },
   {
     id: 34,
-    question: "How do you add a comment in JavaScript?",
+    question: "Which of the following is NOT a valid way to iterate over an array in JavaScript?",
     options: [
-      "<!--This is a comment-->",
-      "//This is a comment",
-      "'This is a comment",
-      "#This is a comment"
+      "forEach()",
+      "map()",
+      "filter()",
+      "each()"
     ],
-    correctAnswer: "//This is a comment"
+    correctAnswer: "each()"
   },
   {
     id: 35,
-    question: "What is the correct way to write a JavaScript object?",
+    question: "What is the output of: [1,2,3].join('-')?",
     options: [
-      "var person = {name: 'John', age: 30};",
-      "var person = {name = 'John', age = 30};",
-      "var person = (name: 'John', age: 30);",
-      "var person = [name: 'John', age: 30];"
+      "'1-2-3'",
+      "'123'",
+      "'1,2,3'",
+      "Error"
     ],
-    correctAnswer: "var person = {name: 'John', age: 30};"
+    correctAnswer: "'1-2-3'"
   },
   {
     id: 36,
-    question: "How do you access the 'age' property of a 'person' object in JavaScript?",
+    question: "How do you find the index of an element in an array in JavaScript?",
     options: [
-      "person.age",
-      "person[age]",
-      "person->age",
-      "person=>age"
+      "array.indexOf(element)",
+      "array.findIndex(element)",
+      "array.search(element)",
+      "All of the above"
     ],
-    correctAnswer: "person.age"
+    correctAnswer: "array.indexOf(element)"
   },
   {
     id: 37,
-    question: "How do you get the DOM element with the id 'demo' in JavaScript?",
+    question: "What is the output of: '2' * '3'?",
     options: [
-      "document.getElement('demo')",
-      "document.getElementById('demo')",
-      "document.getElementByName('demo')",
-      "document.getElementByID('demo')"
+      "6",
+      "'6'",
+      "Error",
+      "NaN"
     ],
-    correctAnswer: "document.getElementById('demo')"
+    correctAnswer: "6"
   },
   {
     id: 38,
-    question: "How do you change the content of an HTML element with id 'demo' using JavaScript?",
+    question: "Which of the following is a correct way to handle exceptions in JavaScript?",
     options: [
-      "document.getElementById('demo').innerHTML = 'Hello';",
-      "document.getElement('demo').innerHTML = 'Hello';",
-      "document.getId('demo').innerHTML = 'Hello';",
-      "#demo.innerHTML = 'Hello';"
+      "try {} catch (e) {}",
+      "try {} catch (error) {}",
+      "try {} finally {}",
+      "All of the above"
     ],
-    correctAnswer: "document.getElementById('demo').innerHTML = 'Hello';"
+    correctAnswer: "All of the above"
   },
   {
     id: 39,
-    question: "How do you change the style of an HTML element using JavaScript?",
+    question: "What is the output of: (function(x) { return x * x; })(3)?",
     options: [
-      "document.getElementById('demo').css = 'color: red';",
-      "document.getElementById('demo').style.color = 'red';",
-      "document.getElementById('demo').style = 'color: red';",
-      "document.getElementByID('demo').css = 'color: red';"
+      "9",
+      "6",
+      "Error",
+      "NaN"
     ],
-    correctAnswer: "document.getElementById('demo').style.color = 'red';"
+    correctAnswer: "9"
   },
   {
     id: 40,
-    question: "How do you add a new element to an HTML DOM using JavaScript?",
+    question: "How do you create a shallow copy of an array in JavaScript?",
     options: [
-      "document.createElement('p');",
-      "document.add('p');",
-      "document.addElement('p');",
-      "document.newElement('p');"
+      "array.slice()",
+      "array.concat()",
+      "array.map(x => x)",
+      "All of the above"
     ],
-    correctAnswer: "document.createElement('p');"
+    correctAnswer: "All of the above"
   },
   {
     id: 41,
-    question: "How do you add an event listener to an HTML element using JavaScript?",
+    question: "What is the output of: Math.round(4.7)?",
     options: [
-      "document.getElementById('demo').addEventListener('click', function);",
-      "document.getElementById('demo').onClick = function;",
-      "document.getElementById('demo').event('click', function);",
-      "document.getElementById('demo').addEvent('click', function);"
+      "4",
+      "5",
+      "Error",
+      "NaN"
     ],
-    correctAnswer: "document.getElementById('demo').addEventListener('click', function);"
+    correctAnswer: "5"
   },
   {
     id: 42,
-    question: "What is the correct JavaScript syntax to change the content of the HTML element below? <p id='demo'>This is a demonstration.</p>",
+    question: "Which of the following is NOT a valid way to define a class in JavaScript?",
     options: [
-      "document.getElementByName('p').innerHTML = 'Hello World!';",
-      "document.getElementById('demo').innerHTML = 'Hello World!';",
-      "#demo.innerHTML = 'Hello World!';",
-      "document.getElement('p').innerHTML = 'Hello World!';"
+      "class MyClass {}",
+      "function MyClass() {}",
+      "const MyClass = class {}",
+      "All of the above are valid"
     ],
-    correctAnswer: "document.getElementById('demo').innerHTML = 'Hello World!';"
+    correctAnswer: "All of the above are valid"
   },
   {
     id: 43,
-    question: "What is the correct JavaScript syntax to select all <p> elements?",
+    question: "What is the output of: [1,2,3].push(4,5)?",
     options: [
-      "document.querySelectorAll('p')",
-      "document.getElementByTagName('p')",
-      "document.getElement('p')",
-      "document.querySelector('p')"
+      "[1,2,3,4,5]",
+      "[4,5]",
+      "[1,2,3]",
+      "Error"
     ],
-    correctAnswer: "document.querySelectorAll('p')"
+    correctAnswer: "[1,2,3,4,5]"
   },
   {
     id: 44,
-    question: "What is the JavaScript syntax for printing values in the console?",
+    question: "How do you remove an element from an array by its value in JavaScript?",
     options: [
-      "print(5)",
-      "console.print(5)",
-      "console.log(5)",
-      "log.console(5)"
+      "array.remove(value)",
+      "array.delete(value)",
+      "array.filter(x => x !== value)",
+      "All of the above"
     ],
-    correctAnswer: "console.log(5)"
+    correctAnswer: "array.filter(x => x !== value)"
   },
   {
     id: 45,
-    question: "What is the JavaScript data type of [1,2,3,4]?",
+    question: "What is the output of: 'Hello'.charAt(0)?",
     options: [
-      "Object",
-      "Array",
-      "List",
-      "Table"
+      "'H'",
+      "'e'",
+      "'Hello'",
+      "Error"
     ],
-    correctAnswer: "Array"
+    correctAnswer: "'H'"
   },
   {
     id: 46,
-    question: "How do you convert a JavaScript string to a number?",
+    question: "Which of the following is a correct way to define a default parameter in a function?",
     options: [
-      "parseInt()",
-      "Number()",
-      "toNumber()",
-      "Both A and B"
+      "function foo(x = 1) {}",
+      "function foo(x : 1) {}",
+      "function foo(int x = 1) {}",
+      "All of the above"
     ],
-    correctAnswer: "Both A and B"
+    correctAnswer: "function foo(x = 1) {}"
   },
   {
     id: 47,
-    question: "How do you check if a variable is an array in JavaScript?",
+    question: "What is the output of: (1, 2, 3).map(x => x * 2)?",
     options: [
-      "typeof variable === 'array'",
-      "variable.isArray()",
-      "Array.isArray(variable)",
-      "variable instanceof Array"
+      "[2, 4, 6]",
+      "[1, 2, 3]",
+      "Error",
+      "NaN"
     ],
-    correctAnswer: "Array.isArray(variable)"
+    correctAnswer: "[2, 4, 6]"
   },
   {
     id: 48,
-    question: "Which method removes the last element from a JavaScript array?",
+    question: "How do you check if a string contains a substring in JavaScript?",
     options: [
-      "pop()",
-      "last()",
-      "remove()",
-      "deleteLast()"
+      "'substring' in string",
+      "string.includes('substring')",
+      "string.indexOf('substring') !== -1",
+      "All of the above"
     ],
-    correctAnswer: "pop()"
+    correctAnswer: "All of the above"
   },
   {
     id: 49,
-    question: "Which method adds a new element to the end of a JavaScript array?",
+    question: "What is the output of: Math.sqrt(16)?",
     options: [
-      "add()",
-      "append()",
-      "push()",
-      "insert()"
+      "4",
+      "8",
+      "16",
+      "Error"
     ],
-    correctAnswer: "push()"
+    correctAnswer: "4"
   },
   {
     id: 50,
-    question: "What is the correct way to create a JavaScript Date object for the current date and time?",
+    question: "How do you create a new Set in JavaScript?",
     options: [
-      "var d = Date.create();",
-      "var d = new Date();",
-      "var d = Date().current();",
-      "var d = Date.now();"
+      "let s = new Set();",
+      "let s = Set();",
+      "let s = new Set({});",
+      "All of the above"
     ],
-    correctAnswer: "var d = new Date();"
+    correctAnswer: "let s = new Set();"
   }
 ];
