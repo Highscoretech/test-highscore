@@ -2,454 +2,556 @@ export const testQuestions = [
   // HTML Questions
   {
     id: 1,
-    question: "Which HTML tag is used to create a heading?",
+    question: "What is the semantic meaning of the `<aside>` tag in HTML5?",
     options: [
-      "<head>",
-      "<h1>",
-      "<title>",
-      "<header>"
+      "It defines content that is tangentially related to the content around it.",
+      "It is used for the main content of the page.",
+      "It defines a header for a document or section.",
+      "It is used for navigation links."
     ],
-    correctAnswer: "<h1>"
+    correctAnswer: "It defines content that is tangentially related to the content around it."
   },
   {
     id: 2,
-    question: "What is the correct HTML tag to create a paragraph?",
+    question: "What is the difference between `<strong>` and `<b>` tags?",
     options: [
-      "<para>",
-      "<p>",
-      "<text>",
-      "<paragraph>"
+      "They are visually the same, but `<strong>` has semantic importance.",
+      "They are semantically the same, but `<strong>` is a newer tag.",
+      "`<b>` is for bold text, and `<strong>` is for important text.",
+      "There is no difference."
     ],
-    correctAnswer: "<p>"
+    correctAnswer: "They are visually the same, but `<strong>` has semantic importance."
   },
   {
     id: 3,
-    question: "Which tag is used to create a hyperlink in HTML?",
+    question: "Which attribute is required for the `<img>` tag to be valid?",
     options: [
-      "<link>",
-      "<href>",
-      "<a>",
-      "<url>"
+      "src",
+      "alt",
+      "Both src and alt",
+      "Neither"
     ],
-    correctAnswer: "<a>"
+    correctAnswer: "Both src and alt"
   },
   {
     id: 4,
-    question: "What attribute is used to specify the URL in an HTML link?",
+    question: "What does the `defer` attribute in a `<script>` tag do?",
     options: [
-      "src",
-      "href",
-      "link",
-      "url"
+      "It executes the script after the HTML document has been parsed.",
+      "It executes the script asynchronously.",
+      "It defers the loading of the script until it is needed.",
+      "It is not a valid attribute."
     ],
-    correctAnswer: "href"
+    correctAnswer: "It executes the script after the HTML document has been parsed."
   },
   {
     id: 5,
-    question: "Which tag is used to insert an image in HTML?",
+    question: "Which of the following is NOT a valid HTML5 semantic tag?",
     options: [
-      "<image>",
-      "<pic>",
-      "<img>",
-      "<photo>"
+      "<article>",
+      "<section>",
+      "<header>",
+      "<container>"
     ],
-    correctAnswer: "<img>"
-  },
-  {
-    id: 6,
-    question: "What is the correct HTML tag for creating an unordered list?",
-    options: [
-      "<ul>",
-      "<ol>",
-      "<list>",
-      "<ulist>"
-    ],
-    correctAnswer: "<ul>"
-  },
-  {
-    id: 7,
-    question: "Which tag is used for a line break in HTML?",
-    options: [
-      "<break>",
-      "<br>",
-      "<lb>",
-      "<newline>"
-    ],
-    correctAnswer: "<br>"
-  },
-  {
-    id: 8,
-    question: "What tag is used to create a table in HTML?",
-    options: [
-      "<table>",
-      "<tab>",
-      "<tbl>",
-      "<grid>"
-    ],
-    correctAnswer: "<table>"
+    correctAnswer: "<container>"
   },
 
   // CSS Questions
   {
-    id: 9,
-    question: "Which CSS property is used to change text color?",
+    id: 6,
+    question: "In CSS, what is the specificity of an ID selector?",
     options: [
-      "font-color",
-      "text-color",
-      "color",
-      "background-color"
+      "1,0,0",
+      "0,1,0",
+      "0,0,1",
+      "10,0,0"
     ],
-    correctAnswer: "color"
+    correctAnswer: "1,0,0"
+  },
+  {
+    id: 7,
+    question: "What is the difference between `position: relative` and `position: absolute`?",
+    options: [
+      "`relative` positions an element relative to its normal position, while `absolute` positions it relative to its nearest positioned ancestor.",
+      "`absolute` positions an element relative to its normal position, while `relative` positions it relative to the viewport.",
+      "They are the same.",
+      "None of the above."
+    ],
+    correctAnswer: "`relative` positions an element relative to its normal position, while `absolute` positions it relative to its nearest positioned ancestor."
+  },
+  {
+    id: 8,
+    question: "What does `flex-grow: 1` do in a flex container?",
+    options: [
+      "It makes the flex item grow to take up all available space.",
+      "It sets the initial size of the flex item to 1px.",
+      "It makes the flex item shrink if necessary.",
+      "It is not a valid CSS property."
+    ],
+    correctAnswer: "It makes the flex item grow to take up all available space."
+  },
+  {
+    id: 9,
+    question: "How can you create a responsive design that adapts to different screen sizes?",
+    options: [
+      "Using media queries",
+      "Using fixed-width layouts",
+      "Using only absolute positioning",
+      "By not using CSS"
+    ],
+    correctAnswer: "Using media queries"
   },
   {
     id: 10,
-    question: "How do you apply CSS to change the background color?",
+    question: "What is the `box-sizing` property used for?",
     options: [
-      "color",
-      "bg-color",
-      "background-color",
-      "background"
+      "To include padding and border in the element's total width and height.",
+      "To control the size of the content box.",
+      "To set the margin of an element.",
+      "To define the shape of an element."
     ],
-    correctAnswer: "background-color"
+    correctAnswer: "To include padding and border in the element's total width and height."
   },
   {
     id: 11,
-    question: "Which CSS property is used to change the font size?",
+    question: "What is the difference between `display: none` and `visibility: hidden`?",
     options: [
-      "text-size",
-      "font-size",
-      "size",
-      "text-style"
+      "`display: none` removes the element from the document flow, while `visibility: hidden` only hides it.",
+      "`visibility: hidden` removes the element from the document flow, while `display: none` only hides it.",
+      "They are the same.",
+      "None of the above."
     ],
-    correctAnswer: "font-size"
+    correctAnswer: "`display: none` removes the element from the document flow, while `visibility: hidden` only hides it."
   },
   {
     id: 12,
-    question: "How do you center text using CSS?",
+    question: "Which CSS property is used to create a stacking context?",
     options: [
-      "text-align: center",
-      "align: center",
-      "center: text",
-      "text: center"
+      "z-index",
+      "position",
+      "opacity",
+      "All of the above"
     ],
-    correctAnswer: "text-align: center"
+    correctAnswer: "All of the above"
   },
   {
     id: 13,
-    question: "Which property is used to add space inside an element's border?",
+    question: "What is the purpose of the `::before` and `::after` pseudo-elements?",
     options: [
-      "margin",
-      "padding",
-      "spacing",
-      "border-spacing"
+      "To add content before and after an element's content.",
+      "To select the first and last child of an element.",
+      "To style the first letter and first line of an element.",
+      "They are not valid pseudo-elements."
     ],
-    correctAnswer: "padding"
+    correctAnswer: "To add content before and after an element's content."
   },
   {
     id: 14,
-    question: "What CSS property is used to add space outside an element's border?",
+    question: "How do you center a block-level element horizontally?",
     options: [
-      "padding",
-      "margin",
-      "border-space",
-      "outside-space"
+      "margin: 0 auto;",
+      "text-align: center;",
+      "align-items: center;",
+      "justify-content: center;"
     ],
-    correctAnswer: "margin"
+    correctAnswer: "margin: 0 auto;"
   },
   {
     id: 15,
-    question: "How do you select an element with id 'header' in CSS?",
+    question: "What is the difference between `em` and `rem` units?",
     options: [
-      ".header",
-      "#header",
-      "header",
-      "*header"
+      "`em` is relative to the font-size of the parent element, while `rem` is relative to the font-size of the root element.",
+      "`rem` is relative to the font-size of the parent element, while `em` is relative to the font-size of the root element.",
+      "They are the same.",
+      "None of the above."
     ],
-    correctAnswer: "#header"
-  },
-  {
-    id: 16,
-    question: "How do you select elements with class 'button' in CSS?",
-    options: [
-      "#button",
-      ".button",
-      "button",
-      "*button"
-    ],
-    correctAnswer: ".button"
+    correctAnswer: "`em` is relative to the font-size of the parent element, while `rem` is relative to the font-size of the root element."
   },
 
-  // JavaScript Variables
+  // JavaScript Questions
+  {
+    id: 16,
+    question: "What is the output of `typeof null`?",
+    options: [
+      "object",
+      "null",
+      "undefined",
+      "string"
+    ],
+    correctAnswer: "object"
+  },
   {
     id: 17,
-    question: "How do you declare a variable in JavaScript?",
+    question: "What is a closure in JavaScript?",
     options: [
-      "var x",
-      "variable x",
-      "v x",
-      "declare x"
+      "A function that has access to its outer function's scope, even after the outer function has returned.",
+      "A function that is passed as an argument to another function.",
+      "A function that returns another function.",
+      "All of the above."
     ],
-    correctAnswer: "var x"
+    correctAnswer: "A function that has access to its outer function's scope, even after the outer function has returned."
   },
   {
     id: 18,
-    question: "Which keyword is used to declare a constant in JavaScript?",
+    question: "What is the difference between `==` and `===`?",
     options: [
-      "const",
-      "constant",
-      "var",
-      "let"
+      "`==` performs type coercion, while `===` does not.",
+      "`===` performs type coercion, while `==` does not.",
+      "They are the same.",
+      "None of the above."
     ],
-    correctAnswer: "const"
+    correctAnswer: "`==` performs type coercion, while `===` does not."
   },
   {
     id: 19,
-    question: "What is the result of: let x = 5; x = 10; console.log(x);?",
+    question: "What is the event loop in JavaScript?",
     options: [
-      "5",
-      "10",
-      "Error",
-      "undefined"
+      "A mechanism that allows JavaScript to perform non-blocking operations.",
+      "A loop that iterates over the properties of an object.",
+      "A loop that is used to create animations.",
+      "None of the above."
     ],
-    correctAnswer: "10"
+    correctAnswer: "A mechanism that allows JavaScript to perform non-blocking operations."
   },
   {
     id: 20,
-    question: "Which of these is a valid variable name in JavaScript?",
+    question: "What is the `this` keyword in JavaScript?",
     options: [
-      "2name",
-      "my-name",
-      "myName",
-      "my name"
+      "It refers to the object that the function is a method of.",
+      "It refers to the global object.",
+      "It refers to the function itself.",
+      "It depends on how the function is called."
     ],
-    correctAnswer: "myName"
+    correctAnswer: "It depends on how the function is called."
   },
-
-  // JavaScript Functions
   {
     id: 21,
-    question: "How do you define a function in JavaScript?",
+    question: "What is the output of `console.log(1 + '2' + 3)`?",
     options: [
-      "function myFunction() {}",
-      "def myFunction() {}",
-      "create function myFunction() {}",
-      "function: myFunction() {}"
+      "123",
+      "6",
+      "15",
+      "Error"
     ],
-    correctAnswer: "function myFunction() {}"
+    correctAnswer: "123"
   },
   {
     id: 22,
-    question: "How do you call a function named 'sayHello'?",
+    question: "What is the purpose of the `map` method in JavaScript?",
     options: [
-      "call sayHello()",
-      "sayHello()",
-      "run sayHello()",
-      "execute sayHello()"
+      "To create a new array with the results of calling a provided function on every element in the calling array.",
+      "To iterate over the properties of an object.",
+      "To filter the elements of an array.",
+      "To reduce the elements of an array to a single value."
     ],
-    correctAnswer: "sayHello()"
+    correctAnswer: "To create a new array with the results of calling a provided function on every element in the calling array."
   },
   {
     id: 23,
-    question: "What keyword is used to return a value from a function?",
+    question: "What is the difference between `let` and `const`?",
     options: [
-      "give",
-      "return",
-      "send",
-      "output"
+      "`let` allows you to reassign the variable, while `const` does not.",
+      "`const` allows you to reassign the variable, while `let` does not.",
+      "They are the same.",
+      "None of the above."
     ],
-    correctAnswer: "return"
+    correctAnswer: "`let` allows you to reassign the variable, while `const` does not."
   },
   {
     id: 24,
-    question: "What will this function return: function add(a, b) { return a + b; }?",
+    question: "What is hoisting in JavaScript?",
     options: [
-      "The sum of a and b",
-      "Nothing",
-      "Error",
-      "undefined"
+      "A mechanism where variable and function declarations are moved to the top of their containing scope before code execution.",
+      "A way to lift heavy objects.",
+      "A design pattern.",
+      "None of the above."
     ],
-    correctAnswer: "The sum of a and b"
+    correctAnswer: "A mechanism where variable and function declarations are moved to the top of their containing scope before code execution."
   },
-
-  // JavaScript If/Else
   {
     id: 25,
-    question: "What is the correct syntax for an if statement in JavaScript?",
+    question: "What is the output of `console.log(0.1 + 0.2 === 0.3)`?",
     options: [
-      "if x = 5 then",
-      "if (x == 5)",
-      "if x == 5:",
-      "if [x == 5]"
+      "false",
+      "true",
+      "undefined",
+      "Error"
     ],
-    correctAnswer: "if (x == 5)"
+    correctAnswer: "false"
   },
   {
     id: 26,
-    question: "How do you write an if-else statement in JavaScript?",
+    question: "What is the purpose of the `bind` method?",
     options: [
-      "if (condition) {} else {}",
-      "if condition {} else {}",
-      "if (condition): else:",
-      "if condition then else"
+      "To create a new function that, when called, has its `this` keyword set to the provided value.",
+      "To bind an event listener to an element.",
+      "To bind a function to a specific scope.",
+      "All of the above."
     ],
-    correctAnswer: "if (condition) {} else {}"
+    correctAnswer: "To create a new function that, when called, has its `this` keyword set to the provided value."
   },
   {
     id: 27,
-    question: "What will happen if the condition is false: if (false) { console.log('Hello'); }?",
+    question: "What is a pure function?",
     options: [
-      "It prints 'Hello'",
-      "It does nothing",
-      "It throws an error",
-      "It prints 'false'"
+      "A function that, given the same input, will always return the same output and has no side effects.",
+      "A function that has no parameters.",
+      "A function that only returns a boolean value.",
+      "A function that is not a method of an object."
     ],
-    correctAnswer: "It does nothing"
+    correctAnswer: "A function that, given the same input, will always return the same output and has no side effects."
   },
   {
     id: 28,
-    question: "Which operator is used for 'not equal' in JavaScript?",
+    question: "What is the difference between `slice` and `splice`?",
     options: [
-      "<>",
-      "!=",
-      "!==",
-      "Both != and !=="
+      "`slice` returns a new array, while `splice` modifies the original array.",
+      "`splice` returns a new array, while `slice` modifies the original array.",
+      "They are the same.",
+      "None of the above."
     ],
-    correctAnswer: "Both != and !=="
+    correctAnswer: "`slice` returns a new array, while `splice` modifies the original array."
   },
-
-  // JavaScript DOM
   {
     id: 29,
-    question: "How do you select an element by its ID in JavaScript?",
+    question: "What is the purpose of the `reduce` method?",
     options: [
-      "document.getElementById('id')",
-      "document.selectById('id')",
-      "document.getElement('id')",
-      "document.findById('id')"
+      "To execute a reducer function on each element of the array, resulting in a single output value.",
+      "To reduce the number of elements in an array.",
+      "To reduce the complexity of a function.",
+      "None of the above."
     ],
-    correctAnswer: "document.getElementById('id')"
+    correctAnswer: "To execute a reducer function on each element of the array, resulting in a single output value."
   },
   {
     id: 30,
-    question: "How do you change the text content of an element?",
+    question: "What is event delegation?",
     options: [
-      "element.text = 'new text'",
-      "element.innerHTML = 'new text'",
-      "element.textContent = 'new text'",
-      "Both innerHTML and textContent"
+      "A technique where you add a single event listener to a parent element to handle events for all of its children.",
+      "A way to delegate events to other functions.",
+      "A design pattern for handling custom events.",
+      "None of the above."
     ],
-    correctAnswer: "Both innerHTML and textContent"
+    correctAnswer: "A technique where you add a single event listener to a parent element to handle events for all of its children."
   },
   {
     id: 31,
-    question: "How do you add an event listener for a click in JavaScript?",
+    question: "What is the output of `console.log(!!'hello')`?",
     options: [
-      "element.onClick = function() {}",
-      "element.addEventListener('click', function() {})",
-      "element.addClick(function() {})",
-      "element.click(function() {})"
+      "true",
+      "false",
+      "hello",
+      "undefined"
     ],
-    correctAnswer: "element.addEventListener('click', function() {})"
+    correctAnswer: "true"
   },
   {
     id: 32,
-    question: "How do you change the background color of an element using JavaScript?",
+    question: "What is a higher-order function?",
     options: [
-      "element.backgroundColor = 'red'",
-      "element.style.backgroundColor = 'red'",
-      "element.css.backgroundColor = 'red'",
-      "element.color.background = 'red'"
+      "A function that takes another function as an argument, or returns a function.",
+      "A function that is at the top of the call stack.",
+      "A function that has a high level of complexity.",
+      "None of the above."
     ],
-    correctAnswer: "element.style.backgroundColor = 'red'"
+    correctAnswer: "A function that takes another function as an argument, or returns a function."
   },
-
-  // Mixed Simple Questions
   {
     id: 33,
-    question: "What does HTML stand for?",
+    question: "What is the difference between `null` and `undefined`?",
     options: [
-      "Hyper Text Markup Language",
-      "Home Tool Markup Language",
-      "Hyperlinks Text Mark Language",
-      "Hyper Text Making Language"
+      "`null` is an assignment value, while `undefined` means a variable has been declared but not defined.",
+      "`undefined` is an assignment value, while `null` means a variable has been declared but not defined.",
+      "They are the same.",
+      "None of the above."
     ],
-    correctAnswer: "Hyper Text Markup Language"
+    correctAnswer: "`null` is an assignment value, while `undefined` means a variable has been declared but not defined."
   },
   {
     id: 34,
-    question: "What does CSS stand for?",
+    question: "What is the DOM?",
     options: [
-      "Creative Style Sheets",
-      "Cascading Style Sheets",
-      "Computer Style Sheets",
-      "Colorful Style Sheets"
+      "A programming interface for web documents.",
+      "A type of JavaScript framework.",
+      "A data storage system.",
+      "None of the above."
     ],
-    correctAnswer: "Cascading Style Sheets"
+    correctAnswer: "A programming interface for web documents."
   },
   {
     id: 35,
-    question: "What will this code output: console.log(5 + 3);?",
+    question: "What is the purpose of `JSON.stringify()`?",
     options: [
-      "5 + 3",
-      "8",
-      "53",
-      "Error"
+      "To convert a JavaScript object to a JSON string.",
+      "To parse a JSON string.",
+      "To create a new JSON object.",
+      "None of the above."
     ],
-    correctAnswer: "8"
+    correctAnswer: "To convert a JavaScript object to a JSON string."
   },
   {
     id: 36,
-    question: "Which is the correct way to write a JavaScript comment?",
+    question: "What is the output of `[1, 2, 3].map(parseInt)`?",
     options: [
-      "<!-- This is a comment -->",
-      "// This is a comment",
-      "/* This is a comment */",
-      "Both // and /* */ are correct"
+      "[1, NaN, NaN]",
+      "[1, 2, 3]",
+      "[1, 2, 2]",
+      "Error"
     ],
-    correctAnswer: "Both // and /* */ are correct"
+    correctAnswer: "[1, NaN, NaN]"
   },
   {
     id: 37,
-    question: "What is the result of: let age = 18; if (age >= 18) { console.log('Adult'); } else { console.log('Child'); }?",
+    question: "What is the `arguments` object in JavaScript?",
     options: [
-      "Adult",
-      "Child",
-      "18",
-      "Error"
+      "An array-like object accessible inside functions that contains the values of the arguments passed to that function.",
+      "An object that contains all the global variables.",
+      "An object that contains all the local variables.",
+      "None of the above."
     ],
-    correctAnswer: "Adult"
+    correctAnswer: "An array-like object accessible inside functions that contains the values of the arguments passed to that function."
   },
   {
     id: 38,
-    question: "How do you create a button in HTML?",
+    question: "What is the purpose of the `Promise` object?",
     options: [
-      "<btn>Click me</btn>",
-      "<button>Click me</button>",
-      "<input type='button'>",
-      "Both <button> and <input type='button'>"
+      "To represent the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+      "To make a promise to the user.",
+      "To create a new thread.",
+      "None of the above."
     ],
-    correctAnswer: "Both <button> and <input type='button'>"
+    correctAnswer: "To represent the eventual completion (or failure) of an asynchronous operation and its resulting value."
   },
   {
     id: 39,
-    question: "What CSS property controls the text font?",
+    question: "What is the difference between `var`, `let`, and `const`?",
     options: [
-      "font-family",
-      "text-font",
-      "font-type",
-      "text-family"
+      "`var` is function-scoped, while `let` and `const` are block-scoped.",
+      "`let` is function-scoped, while `var` and `const` are block-scoped.",
+      "`const` is function-scoped, while `var` and `let` are block-scoped.",
+      "There is no difference."
     ],
-    correctAnswer: "font-family"
+    correctAnswer: "`var` is function-scoped, while `let` and `const` are block-scoped."
   },
   {
     id: 40,
-    question: "What is the purpose of the <head> tag in HTML?",
+    question: "What is the output of `console.log(typeof NaN)`?",
     options: [
-      "To create a heading",
-      "To contain metadata about the document",
-      "To start the document",
-      "To create a header section"
+      "number",
+      "NaN",
+      "undefined",
+      "string"
     ],
-    correctAnswer: "To contain metadata about the document"
+    correctAnswer: "number"
+  },
+  {
+    id: 41,
+    question: "What is the purpose of the `async/await` syntax?",
+    options: [
+      "To make asynchronous code look and behave more like synchronous code.",
+      "To create a new thread.",
+      "To define a new type of function.",
+      "None of the above."
+    ],
+    correctAnswer: "To make asynchronous code look and behave more like synchronous code."
+  },
+  {
+    id: 42,
+    question: "What is object destructuring?",
+    options: [
+      "A JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.",
+      "A way to destroy an object.",
+      "A method for creating new objects.",
+      "None of the above."
+    ],
+    correctAnswer: "A JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables."
+  },
+  {
+    id: 43,
+    question: "What is the output of `console.log('hello'.length)`?",
+    options: [
+      "5",
+      "6",
+      "undefined",
+      "Error"
+    ],
+    correctAnswer: "5"
+  },
+  {
+    id: 44,
+    question: "What is the `...` operator in JavaScript?",
+    options: [
+      "The spread operator, which allows an iterable to be expanded in places where zero or more arguments or elements are expected.",
+      "The rest parameter, which allows a function to accept an indefinite number of arguments as an array.",
+      "Both of the above.",
+      "None of the above."
+    ],
+    correctAnswer: "Both of the above."
+  },
+  {
+    id: 45,
+    question: "What is a template literal?",
+    options: [
+      "A string literal that allows embedded expressions.",
+      "A template for creating objects.",
+      "A literal value that is a template.",
+      "None of the above."
+    ],
+    correctAnswer: "A string literal that allows embedded expressions."
+  },
+  {
+    id: 46,
+    question: "What is the output of `console.log(2 in [1, 2, 3])`?",
+    options: [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    correctAnswer: "true"
+  },
+  {
+    id: 47,
+    question: "What is the `Set` object in JavaScript?",
+    options: [
+      "A collection of unique values.",
+      "A collection of key-value pairs.",
+      "A collection of ordered values.",
+      "None of the above."
+    ],
+    correctAnswer: "A collection of unique values."
+  },
+  {
+    id: 48,
+    question: "What is the `Map` object in JavaScript?",
+    options: [
+      "A collection of key-value pairs.",
+      "A collection of unique values.",
+      "A collection of ordered values.",
+      "None of the above."
+    ],
+    correctAnswer: "A collection of key-value pairs."
+  },
+  {
+    id: 49,
+    question: "What is the difference between `for...in` and `for...of`?",
+    options: [
+      "`for...in` iterates over the enumerable properties of an object, while `for...of` iterates over the values of an iterable object.",
+      "`for...of` iterates over the enumerable properties of an object, while `for...in` iterates over the values of an iterable object.",
+      "They are the same.",
+      "None of the above."
+    ],
+    correctAnswer: "`for...in` iterates over the enumerable properties of an object, while `for...of` iterates over the values of an iterable object."
+  },
+  {
+    id: 50,
+    question: "What is the output of `console.log(typeof [])`?",
+    options: [
+      "object",
+      "array",
+      "list",
+      "undefined"
+    ],
+    correctAnswer: "object"
   }
 ];
