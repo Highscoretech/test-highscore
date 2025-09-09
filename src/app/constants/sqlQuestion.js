@@ -66,17 +66,7 @@ export const testQuestions = [
     ],
     correctAnswer: "5/36"
   },
-  {
-    id: 57,
-    question: "Find the derivative of f(x) = (3x^2 + 2x + 1) * (x - 1)",
-    options: [
-      "f'(x) = 9x^2 - 2x - 1",
-      "f'(x) = 9x^2 - 2x + 1",
-      "f'(x) = 6x + 2",
-      "f'(x) = 3x^2 + 2x + 1"
-    ],
-    correctAnswer: "f'(x) = 9x^2 - 2x - 1"
-  },
+
   {
     id: 58,
     question: "Find the derivative of f(x) = (5x^4 - 3x^3) / (2x^2 - 1)",
@@ -90,14 +80,25 @@ export const testQuestions = [
   },
   {
     id: 59,
-    question: "Find the derivative of f(x) = cos(x^2)",
+    question: "Solve the following system of linear equations: 2x + 3y - z = 1, 3x - y + 2z = 7, x + 4y - 3z = -2",
     options: [
-      "f'(x) = -2x * sin(x^2)",
-      "f'(x) = -sin(x^2)",
-      "f'(x) = 2x * sin(x^2)",
-      "f'(x) = -sin(2x)"
+      "x = 2, y = -1, z = 0",
+      "x = 1, y = 0, z = 1",
+      "x = 3, y = -2, z = 1",
+      "x = 0, y = 1, z = 2"
     ],
-    correctAnswer: "f'(x) = -2x * sin(x^2)"
+    correctAnswer: "x = 2, y = -1, z = 0"
+  },
+    {
+    id: 57,
+    question: "Find the derivative of f(x) = (3x^2 + 2x + 1) * (x - 1)",
+    options: [
+      "f'(x) = 9x^2 - 2x - 1",
+      "f'(x) = 9x^2 - 2x + 1",
+      "f'(x) = 6x + 2",
+      "f'(x) = 3x^2 + 2x + 1"
+    ],
+    correctAnswer: "f'(x) = 9x^2 - 2x - 1"
   },
   {
     id: 60,
